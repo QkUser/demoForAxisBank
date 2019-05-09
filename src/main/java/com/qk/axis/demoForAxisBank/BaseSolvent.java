@@ -81,8 +81,8 @@ public class BaseSolvent extends BaseTestCase{
 
 		System.out.println(prop.getProperty("APPIUM_JS"));
 
-		AppiumServiceBuilder builder = new AppiumServiceBuilder().withAppiumJS(new File(prop.getProperty("APPIUM_JS")))
-				.usingDriverExecutable(new File(prop.getProperty("APPIUM_NODE")))
+		AppiumServiceBuilder builder = new AppiumServiceBuilder().withAppiumJS(new File("/usr/local/lib/node_modules/appium/build/lib/main.js"))
+				.usingDriverExecutable(new File("/usr/local/Cellar/node/11.5.0/bin/node"))
 				.withArgument(GeneralServerFlag.LOG_LEVEL, "info")
 				.withArgument(AndroidServerFlag.CHROME_DRIVER_PORT, Integer.toString(chromePort))
 				.withArgument(AndroidServerFlag.BOOTSTRAP_PORT_NUMBER, Integer.toString(bootstrapPort))
