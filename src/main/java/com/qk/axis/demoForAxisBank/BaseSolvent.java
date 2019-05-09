@@ -37,8 +37,7 @@ public class BaseSolvent extends BaseTestCase{
 
 	public static AppiumDriver createAndroidDriverInstance() throws Exception {
 
-		prop.load(new FileInputStream(
-				"/Users/quality/eclipse-workspace/AxisMobileBanking_Steps_optimized/config.properties"));
+		
 		
 
 		try {
