@@ -66,9 +66,8 @@ public class BaseSolvent extends BaseTestCase{
 	public static AppiumServiceBuilder appiumServerForAndroid() throws Exception {
 
 		Properties prop = new Properties();
-		InputStream input = new FileInputStream(
-				"/Users/quality/eclipse-workspace/AxisMobileBanking_Steps_optimized/config.properties");
-		prop.load(input);
+
+	
 		// port = 5743;
 		port = getPort();
 		System.out.println(port);
