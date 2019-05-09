@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testConfig>
+	<workingDataSet name="set1" />
+	<datasets>
+		<dataset name="set1">
+			<var name="NickName">otherpayee</var>
+			<var name="Mpin">121212</var>
+			<var name="EquipRelationshipSettingsTableExample">EquipRelationshipSettingsTableExample</var>
+		</dataset>
+	</datasets>
+</testConfig>
