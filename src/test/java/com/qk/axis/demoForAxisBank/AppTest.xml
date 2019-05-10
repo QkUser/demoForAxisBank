@@ -3,7 +3,7 @@
 	<workingDataSet name="set1" />
 	<datasets>
 		<dataset name="set1">
-			<var name="NickName">otherpayee</var>
+			<var name="NickName">tedt</var>
 			<var name="Mpin">121212</var>
 			<var name="EquipRelationshipSettingsTableExample">EquipRelationshipSettingsTableExample</var>
 		</dataset>
