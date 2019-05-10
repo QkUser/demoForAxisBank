@@ -10,9 +10,9 @@ public class AppTest extends FundTransferFunctions {
 	String Mpin = getData().getVariable("Mpin");
 
 	@Test
-	public void f() {
+	public void f() throws Exception {
 		System.out.println(Nickname);
-		try {
+
 			openApp();
 			logIn();
 			EnterMpin(Mpin);
@@ -23,8 +23,6 @@ public class AppTest extends FundTransferFunctions {
 
 			Assert.assertTrue(driver.findElementByAccessibilityId("PAY NOW").isDisplayed(), "Pay now button not displayed");
 			
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
+	
 	}
 }

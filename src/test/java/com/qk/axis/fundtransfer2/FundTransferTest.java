@@ -9,10 +9,10 @@ public class FundTransferTest extends FundTransferFunctions{
 	String Nickname = getData().getVariable("NickName");
 	String Mpin = getData().getVariable("Mpin");
   @Test
-  public void f() {
+  public void f() throws Exception {
 	  
 	  System.out.println(Nickname);
-		try {
+		
 			openApp();
 			logIn();
 			EnterMpin(Mpin);
@@ -21,11 +21,6 @@ public class FundTransferTest extends FundTransferFunctions{
 			clickOnInitialButtonOfPayee(Nickname).
 			clickOnFooterPayButton();
 			
-			
-			
-
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-  }
+ 
+}
 }
