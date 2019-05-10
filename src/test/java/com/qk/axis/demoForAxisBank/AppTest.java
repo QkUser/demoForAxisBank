@@ -8,21 +8,20 @@ import com.qk.axis.FT.FundTransferFunctions;
 public class AppTest extends FundTransferFunctions {
 	String Nickname = getData().getVariable("NickName");
 	String Mpin = getData().getVariable("Mpin");
+	static boolean flag = false;
 
 	@Test
 	public void f() throws Exception {
 		System.out.println(Nickname);
-	
+		if (!flag) {
 			openApp();
-			logIn();
-			EnterMpin(Mpin);
-			clickOnFundTransferButton().
-			clickOnUpcomingTab().
-			clickOnInitialButtonOfPayee(Nickname).
-			clickOnFooterPayButton();
+		flag = true;
+		}else {
+			logIn();}
+		EnterMpin(Mpin);
+		clickOnFundTransferButton().clickOnUpcomingTab().clickOnInitialButtonOfPayee(Nickname).clickOnFooterPayButton();
 
-			Assert.assertTrue(driver.findElementByAccessibilityId("PAY NOW").isDisplayed(), "Pay now button not displayed");
-			
-		
+		Assert.assertTrue(driver.findElementByAccessibilityId("PAY NOW").isDisplayed(), "Pay now button not displayed");
+
 	}
 }

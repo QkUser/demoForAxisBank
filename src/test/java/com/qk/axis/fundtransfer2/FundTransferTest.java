@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import com.qk.axis.FT.FundTransferFunctions;
 
 public class FundTransferTest extends FundTransferFunctions{
+	static boolean flag = false ;
 	String Nickname = getData().getVariable("NickName");
 	String Mpin = getData().getVariable("Mpin");
   @Test
@@ -13,8 +14,11 @@ public class FundTransferTest extends FundTransferFunctions{
 	  
 	  System.out.println(Nickname);
 		
+		if (!flag) {
 			openApp();
-			logIn();
+		flag = true;
+		}else {
+			logIn();}
 			EnterMpin(Mpin);
 			clickOnFundTransferButton().
 			clickOnUpcomingTab().

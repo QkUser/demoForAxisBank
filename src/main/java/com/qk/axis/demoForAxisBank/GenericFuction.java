@@ -38,7 +38,7 @@ public class GenericFuction extends BaseSolvent {
 			} catch (Exception e) {
 			}
 		}
-
+ 
 	}
 
 	public static AppiumDriver openApp() {
