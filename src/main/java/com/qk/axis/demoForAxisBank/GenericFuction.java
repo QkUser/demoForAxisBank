@@ -41,9 +41,14 @@ public class GenericFuction extends BaseSolvent {
 
 	}
 
-	public static AppiumDriver openApp() throws Exception {
+	public static AppiumDriver openApp() {
 
-		driver = createAndroidDriverInstance();
+		try {
+			driver = createAndroidDriverInstance();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 		FundTransferFunctions.driver = driver;
 		return driver;
 	}
