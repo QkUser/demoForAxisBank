@@ -17,7 +17,8 @@ public class FundTransferTest extends FundTransferFunctions{
 			EnterMpin(Mpin);
 			clickOnFundTransferButton().
 			clickOnUpcomingTab().
-			clickOnInitialButtonOfPayee(Nickname);
+			clickOnInitialButtonOfPayee(Nickname).
+			clickOnFooterPayButton();
 
 		} catch (Exception e) {
 			e.printStackTrace();
