@@ -56,5 +56,14 @@ public FundTransferFunctions clickOnUpcomingTab() {
 	return this ;
 }
 	
-
+public FundTransferFunctions clickOnFooterPayButton() {
+	new WebDriverWait(driver, 30)
+	.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("Pay")))
+	.isDisplayed();
+	new WebDriverWait(driver, 5)
+	.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("Pay")))
+	.click();
+	
+	return this ;
+}
 }
