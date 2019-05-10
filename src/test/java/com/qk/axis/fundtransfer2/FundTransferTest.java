@@ -1,16 +1,16 @@
-package com.qk.axis.demoForAxisBank;
+package com.qk.axis.fundtransfer2;
 
 import org.testng.annotations.Test;
 
 import com.qk.axis.FT.FundTransferFunctions;
 
-public class AppTest extends FundTransferFunctions {
+public class FundTransferTest extends FundTransferFunctions{
 	String Nickname = getData().getVariable("NickName");
 	String Mpin = getData().getVariable("Mpin");
-
-	@Test
-	public void f() {
-		System.out.println(Nickname);
+  @Test
+  public void f() {
+	  
+	  System.out.println(Nickname);
 		try {
 			openApp();
 			logIn();
@@ -22,5 +22,5 @@ public class AppTest extends FundTransferFunctions {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
+  }
 }

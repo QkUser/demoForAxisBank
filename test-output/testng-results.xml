@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="127398" started-at="2019-05-10T05:58:33Z" finished-at="2019-05-10T06:00:40Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="127398" started-at="2019-05-10T05:58:33Z" finished-at="2019-05-10T06:00:40Z">
+      <class name="com.qk.axis.demoForAxisBank.AppTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.qk.axis.demoForAxisBank.AppTest@69c532af]" name="f" duration-ms="127304" started-at="2019-05-10T05:58:33Z" finished-at="2019-05-10T06:00:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.qk.axis.demoForAxisBank.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

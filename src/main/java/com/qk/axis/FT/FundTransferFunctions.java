@@ -45,7 +45,16 @@ public class FundTransferFunctions extends GenericFuction {
 		return this;
 	}
 	
-
+public FundTransferFunctions clickOnUpcomingTab() {
+	new WebDriverWait(driver, 30)
+	.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("icon upcoming")))
+	.isDisplayed();
+	new WebDriverWait(driver, 5)
+	.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("icon upcoming")))
+	.click();
+	
+	return this ;
+}
 	
 
 }

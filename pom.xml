@@ -41,6 +41,11 @@
 			<artifactId>jaxen</artifactId>
 			<version>1.2.0</version>
 		</dependency>
+		<dependency>
+    <groupId>org.uiautomation</groupId>
+    <artifactId>libimobiledevice-wrapper</artifactId>
+    <version>1.0</version>
+</dependency>
 	</dependencies>
 
 	<build>
