@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 169.509 s <<< FAILURE! - in TestSuite
+f(com.qk.axis.demoForAxisBank.AppTest)  Time elapsed: 135.434 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: PAY NO (tried for 60 second(s) with 500 milliseconds interval)
+	at com.qk.axis.demoForAxisBank.AppTest.f(AppTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.AccessibilityId: PAY NO
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'cdps-MacBook-Pro.local', ip: 'fe80:0:0:0:1c97:a1cc:5f8d:7655%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at com.qk.axis.demoForAxisBank.AppTest.f(AppTest.java:44)
+

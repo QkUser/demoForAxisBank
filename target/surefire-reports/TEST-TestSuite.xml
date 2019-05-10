@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="169.509" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="user.country" value="PA"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="maven.home" value="/Users/quality/eclipse-workspace/demoForAxisBank/EMBEDDED"/>
+    <property name="surefire.test.class.path" value="/Users/quality/eclipse-workspace/demoForAxisBank/target/test-classes:/Users/quality/eclipse-workspace/demoForAxisBank/target/classes:/Users/quality/.m2/repository/org/testng/testng/6.14.3/testng-6.14.3.jar:/Users/quality/.m2/repository/com/beust/jcommander/1.72/jcommander-1.72.jar:/Users/quality/.m2/repository/org/apache-extras/beanshell/bsh/2.0b6/bsh-2.0b6.jar:/Users/quality/.m2/repository/io/appium/java-client/6.1.0/java-client-6.1.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-support/3.12.0/selenium-support-3.12.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/3.12.0/selenium-remote-driver-3.12.0.jar:/Users/quality/.m2/repository/net/bytebuddy/byte-buddy/1.8.3/byte-buddy-1.8.3.jar:/Users/quality/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/quality/.m2/repository/commons-codec/commons-codec/1.10/commons-codec-1.10.jar:/Users/quality/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/quality/.m2/repository/com/google/guava/guava/23.6-jre/guava-23.6-jre.jar:/Users/quality/.m2/repository/com/google/code/findbugs/jsr305/1.3.9/jsr305-1.3.9.jar:/Users/quality/.m2/repository/org/checkerframework/checker-compat-qual/2.0.0/checker-compat-qual-2.0.0.jar:/Users/quality/.m2/repository/com/google/errorprone/error_prone_annotations/2.1.3/error_prone_annotations-2.1.3.jar:/Users/quality/.m2/repository/com/google/j2objc/j2objc-annotations/1.1/j2objc-annotations-1.1.jar:/Users/quality/.m2/repository/org/codehaus/mojo/animal-sniffer-annotations/1.14/animal-sniffer-annotations-1.14.jar:/Users/quality/.m2/repository/org/apache/httpcomponents/httpcore/4.4.6/httpcore-4.4.6.jar:/Users/quality/.m2/repository/com/squareup/okhttp3/okhttp/3.9.1/okhttp-3.9.1.jar:/Users/quality/.m2/repository/com/squareup/okio/okio/1.13.0/okio-1.13.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-api/3.12.0/selenium-api-3.12.0.jar:/Users/quality/.m2/repository/com/google/code/gson/gson/2.8.4/gson-2.8.4.jar:/Users/quality/.m2/repository/org/apache/httpcomponents/httpclient/4.5.5/httpclient-4.5.5.jar:/Users/quality/.m2/repository/cglib/cglib/3.2.6/cglib-3.2.6.jar:/Users/quality/.m2/repository/org/ow2/asm/asm/6.0/asm-6.0.jar:/Users/quality/.m2/repository/org/apache/ant/ant/1.9.6/ant-1.9.6.jar:/Users/quality/.m2/repository/org/apache/ant/ant-launcher/1.9.6/ant-launcher-1.9.6.jar:/Users/quality/.m2/repository/commons-validator/commons-validator/1.6/commons-validator-1.6.jar:/Users/quality/.m2/repository/commons-beanutils/commons-beanutils/1.9.2/commons-beanutils-1.9.2.jar:/Users/quality/.m2/repository/commons-digester/commons-digester/1.8.1/commons-digester-1.8.1.jar:/Users/quality/.m2/repository/commons-collections/commons-collections/3.2.2/commons-collections-3.2.2.jar:/Users/quality/.m2/repository/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar:/Users/quality/.m2/repository/commons-io/commons-io/2.6/commons-io-2.6.jar:/Users/quality/.m2/repository/org/springframework/spring-context/5.0.5.RELEASE/spring-context-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/springframework/spring-aop/5.0.5.RELEASE/spring-aop-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/springframework/spring-beans/5.0.5.RELEASE/spring-beans-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/springframework/spring-core/5.0.5.RELEASE/spring-core-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/springframework/spring-jcl/5.0.5.RELEASE/spring-jcl-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/springframework/spring-expression/5.0.5.RELEASE/spring-expression-5.0.5.RELEASE.jar:/Users/quality/.m2/repository/org/aspectj/aspectjweaver/1.9.1/aspectjweaver-1.9.1.jar:/Users/quality/.m2/repository/org/openpnp/opencv/3.2.0-1/opencv-3.2.0-1.jar:/Users/quality/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/quality/.m2/repository/xml-apis/xml-apis/1.0.b2/xml-apis-1.0.b2.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-java/2.53.0/selenium-java-2.53.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/2.53.0/selenium-chrome-driver-2.53.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/2.53.0/selenium-edge-driver-2.53.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/2.53.0/selenium-firefox-driver-2.53.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/2.53.0/selenium-ie-driver-2.53.0.jar:/Users/quality/.m2/repository/net/java/dev/jna/jna-platform/4.1.0/jna-platform-4.1.0.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/2.53.0/selenium-safari-driver-2.53.0.jar:/Users/quality/.m2/repository/io/netty/netty/3.5.7.Final/netty-3.5.7.Final.jar:/Users/quality/.m2/repository/org/seleniumhq/selenium/selenium-leg-rc/2.53.0/selenium-leg-rc-2.53.0.jar:/Users/quality/.m2/repository/jaxen/jaxen/1.2.0/jaxen-1.2.0.jar:/Users/quality/.m2/repository/org/uiautomation/libimobiledevice-wrapper/1.0/libimobiledevice-wrapper-1.0.jar:/Users/quality/.m2/repository/net/java/dev/jna/jna/4.0.0/jna-4.0.0.jar:/Users/quality/.m2/repository/com/googlecode/plist/dd-plist/1.3/dd-plist-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/quality"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre"/>
+    <property name="basedir" value="/Users/quality/eclipse-workspace/demoForAxisBank"/>
+    <property name="file.separator" value="/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/classes"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="1.8.0_201-b09"/>
+    <property name="user.name" value="quality"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/quality/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/gv/5kd8_n956xldjy01b1p0hb2r0000gp/T/"/>
+    <property name="java.version" value="1.8.0_201"/>
+    <property name="user.dir" value="/Users/quality/eclipse-workspace/demoForAxisBank"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/quality/eclipse-workspace/demoForAxisBank"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/quality/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.201-b09"/>
+    <property name="classworlds.conf" value="/Users/quality/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf409629007946422873.tmp"/>
+    <property name="java.ext.dirs" value="/Users/quality/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="f" classname="com.qk.axis.demoForAxisBank.AppTest" time="135.434">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.AccessibilityId: PAY NO (tried for 60 second(s) with 500 milliseconds interval)" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.AccessibilityId: PAY NO (tried for 60 second(s) with 500 milliseconds interval)
+	at com.qk.axis.demoForAxisBank.AppTest.f(AppTest.java:44)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+Cannot locate an element using By.AccessibilityId: PAY NO
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'cdps-MacBook-Pro.local', ip: 'fe80:0:0:0:1c97:a1cc:5f8d:7655%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.13.6', java.version: '1.8.0_201'
+Driver info: driver.version: unknown
+	at com.qk.axis.demoForAxisBank.AppTest.f(AppTest.java:44)
+</failure>
+    <system-out><![CDATA[Searching for default input file: com/qk/axis/demoForAxisBank/AppTest.xml
+Found test input...digesting file...
+====== Working Data Set: set1
+Searching for default input file: com/qk/axis/fundtransfer2/FundTransferTest.xml
+Found test input...digesting file...
+====== Working Data Set: set1
+tedt
+63055
+&amp#27;[35m[Appium]&amp#27;[39m Welcome to Appium v1.9.1
+&amp#27;[35m[Appium]&amp#27;[39m Non-default server args:
+&amp#27;[35m[Appium]&amp#27;[39m   port: 63055
+&amp#27;[35m[Appium]&amp#27;[39m   bootstrapPort: 63057
+&amp#27;[35m[Appium]&amp#27;[39m   sessionOverride: true
+&amp#27;[35m[Appium]&amp#27;[39m   loglevel: info
+&amp#27;[35m[Appium]&amp#27;[39m   chromeDriverPort: 63056
+&amp#27;[35m[Appium]&amp#27;[39m   suppressKillServer: true
+&amp#27;[35m[Appium]&amp#27;[39m Appium REST http interface listener started on 0.0.0.0:63055
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/status&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/status &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m13 ms - 67&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"desiredCapabilities":{"noReset":true,"newCommandTimeout":3000,"platformVersion":"12.1.2","bundleId":"com.axisbank.axismobileuat","platformName":"Ios","udid":"fba3433f23f4e0745fc8a78fb520b912d43728ee","deviceName":"Iphone"},"capabilities":{"alwaysMatch":{"appium:bundleId":"com.axisbank.axismobileuat","appium:deviceName":"Iphone","appium:newCommandTimeout":3000,"appium:noReset":true,"platformName":"ios","appium:platformVersion":"12.1.2","appium:udid":"fba3433f23f4e0745fc8a78fb520b912d43728ee"},"firstMatch":[{}]}}&amp#27;[39m
+&amp#27;[35m[Appium]&amp#27;[39m Requested iOS support with version >= 10, using 'XCUITest' driver instead of UIAutomation-based driver, since the latter is unsupported on iOS 10 and up.
+&amp#27;[35m[Appium]&amp#27;[39m Creating new XCUITestDriver (v2.94.2) session
+&amp#27;[35m[Appium]&amp#27;[39m Capabilities:
+&amp#27;[35m[Appium]&amp#27;[39m   platformName: ios
+&amp#27;[35m[Appium]&amp#27;[39m   bundleId: com.axisbank.axismobileuat
+&amp#27;[35m[Appium]&amp#27;[39m   deviceName: Iphone
+&amp#27;[35m[Appium]&amp#27;[39m   newCommandTimeout: 3000
+&amp#27;[35m[Appium]&amp#27;[39m   noReset: true
+&amp#27;[35m[Appium]&amp#27;[39m   platformVersion: 12.1.2
+&amp#27;[35m[Appium]&amp#27;[39m   udid: fba3433f23f4e0745fc8a78fb520b912d43728ee
+&amp#27;[35m[BaseDriver]&amp#27;[39m Session created with session id: 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+(node:6797) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+&amp#27;[35m[XCUITest]&amp#27;[39m Determining device to run tests on: udid: 'fba3433f23f4e0745fc8a78fb520b912d43728ee', real device: true
+&amp#27;[35m[XCUITest]&amp#27;[39m Continuing without capturing device logs: The process did not start within 10000ms (cmd: 'idevicesyslog -u fba3433f23f4e0745fc8a78fb520b912d43728ee')
+&amp#27;[35m[XCUITest]&amp#27;[39m Setting up real device
+&amp#27;[35m[XCUITest]&amp#27;[39m Using WDA path: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+&amp#27;[35m[XCUITest]&amp#27;[39m Using WDA agent: '/usr/local/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+&amp#27;[35m[XCUITest]&amp#27;[39m Will reuse previously cached WDA instance at 'http://localhost:8100/' with 'com.facebook.WebDriverAgentRunner'. Set the wdaLocalPort capability to a value different from 8100 if this is an undesired behavior.
+&amp#27;[35m[XCUITest]&amp#27;[39m Using provided WebdriverAgent at 'http://localhost:8100/'
+&amp#27;[35m[XCUITest]&amp#27;[39m Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+&amp#27;[35m[Appium]&amp#27;[39m New XCUITestDriver session created successfully, session 533ec6be-117a-4c0d-af6d-c1da5ade7f23 added to master session list
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m18834 ms - 475&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[XCUITest]&amp#27;[39m Merging WDA caps over Appium caps for session detail response
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23 &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m812 ms - 422&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[XCUITest]&amp#27;[39m Merging WDA caps over Appium caps for session detail response
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23 &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m4 ms - 422&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+Application Launched....
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Login"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m310 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/54010000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/54010000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m292 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Login"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m284 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/54010000-0000-0000-A001-000000000000/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"54010000-0000-0000-A001-000000000000"}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/54010000-0000-0000-A001-000000000000/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m819 ms - 118&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeSearchField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m179 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeSearchField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m106 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeSearchField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m137 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeSearchField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m138 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeTextField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m131 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/8E010000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/8E010000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m135 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"class name","value":"XCUIElementTypeTextField"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m138 ms - 88&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/8E010000-0000-0000-A001-000000000000/value&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"8E010000-0000-0000-A001-000000000000","text":"121212","value":["1","2","1","2","1","2"]}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/8E010000-0000-0000-A001-000000000000/value &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m402 ms - 14&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"img fundtransfer sel"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m92 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"img fundtransfer sel"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m110 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"img fundtransfer sel"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m346 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m295 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m298 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"img fundtransfer sel"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m331 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m287 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"DA010000-0000-0000-A001-000000000000"}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/DA010000-0000-0000-A001-000000000000/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m817 ms - 118&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"icon upcoming"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m906 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m198 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m197 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"icon upcoming"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m202 ms - 90&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m179 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"5E020000-0000-0000-A001-000000000000"}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/5E020000-0000-0000-A001-000000000000/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m654 ms - 118&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@name='tedt']/preceding-sibling:: XCUIElementTypeButton"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m2391 ms - 406&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m204 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"xpath","value":"//XCUIElementTypeStaticText[@name='tedt']/preceding-sibling:: XCUIElementTypeButton"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m1804 ms - 88&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"E9020000-0000-0000-A001-000000000000"}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/E9020000-0000-0000-A001-000000000000/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m473 ms - 118&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m132 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m167 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m167 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m169 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m163 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m875 ms - 485&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m300 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m308 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"Pay"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m749 ms - 485&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mGET&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- GET /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/displayed &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m304 ms - 76&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/click&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"id":"91030000-0000-0000-A001-000000000000"}&amp#27;[39m
+&amp#27;[35m[W3C]&amp#27;[39m Driver proxy active, passing request on via HTTP proxy
+&amp#27;[35m[JSONWP Proxy]&amp#27;[39m Replacing sessionId 0BE626FD-3684-4CBB-A679-92B1E9D58EE8 with 533ec6be-117a-4c0d-af6d-c1da5ade7f23
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/element/91030000-0000-0000-A001-000000000000/click &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m844 ms - 118&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m227 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m226 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m218 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m215 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m161 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m196 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m215 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m207 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m217 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m220 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m205 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m220 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m216 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m154 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m207 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m174 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m207 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m220 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m216 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m216 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m215 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m216 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m207 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m218 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m218 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m213 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m215 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m207 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m212 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m216 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m211 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m214 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m210 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m217 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m208 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m171 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m-->&amp#27;[39m &amp#27;[37mPOST&amp#27;[39m &amp#27;[37m/wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m{"using":"accessibility id","value":"PAY NO"}&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[37m<-- POST /wd/hub/session/533ec6be-117a-4c0d-af6d-c1da5ade7f23/elements &amp#27;[39m&amp#27;[32m200&amp#27;[39m &amp#27;[90m209 ms - 12&amp#27;[39m
+&amp#27;[35m[HTTP]&amp#27;[39m &amp#27;[90m&amp#27;[39m
+]]></system-out>
+    <system-err><![CDATA[May 10, 2019 5:07:30 PM io.appium.java_client.remote.AppiumCommandExecutor$1 lambda$0
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="f" classname="com.qk.axis.fundtransfer2.FundTransferTest" time="32.242"/>
+</testsuite>

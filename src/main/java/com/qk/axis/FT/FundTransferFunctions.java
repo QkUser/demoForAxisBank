@@ -1,5 +1,6 @@
 package com.qk.axis.FT;
 
+import java.io.IOException;
 import java.util.HashMap;
 
 import org.openqa.selenium.By;
@@ -66,4 +67,5 @@ public FundTransferFunctions clickOnFooterPayButton() {
 	
 	return this ;
 }
+
 }

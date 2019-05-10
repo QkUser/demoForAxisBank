@@ -38,7 +38,7 @@ public class GenericFuction extends BaseSolvent {
 			} catch (Exception e) {
 			}
 		}
- 
+
 	}
 
 	public static AppiumDriver openApp() {
@@ -79,7 +79,7 @@ public class GenericFuction extends BaseSolvent {
 
 					int Endy = (int) (size.height * 0.20);
 
-					scrolling( startx, starty, 1000, Endx, Endy);
+					scrolling(startx, starty, 1000, Endx, Endy);
 				}
 			} catch (Exception e) {
 
@@ -93,20 +93,38 @@ public class GenericFuction extends BaseSolvent {
 
 				int Endy = (int) (size.width * 0.20);
 
-				scrolling( startx, Endx, 1000, starty, Endy);
+				scrolling(startx, Endx, 1000, starty, Endy);
 
 			}
 		}
 
 	}
 
-	public void scrolling( int startx, int starty, int duration, int endx, int endy)
-			throws InterruptedException {
+	public void scrolling(int startx, int starty, int duration, int endx, int endy) throws InterruptedException {
 		// logger.info("Scrolling Start...");
 		(new TouchAction(driver)).press(PointOption.point(startx, starty))
 				.waitAction(WaitOptions.waitOptions(Duration.ofMillis(duration))).moveTo(PointOption.point(endx, endy))
 				.release().perform();
 		// logger.info("Scrolling End...");
+	}
+
+	public static void goToHome() throws SecurityException, IOException, InterruptedException {
+		try {
+			new WebDriverWait(driver, 10)
+					.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId("OK"))).click();
+		} catch (Exception e) {
+		}
+
+		new WebDriverWait(driver, 60)
+				.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("(//XCUIElementTypeImage)[3]")))
+				.isEnabled();
+		driver.findElement(By.xpath("(//XCUIElementTypeImage)[3]")).click();
+
+		new WebDriverWait(driver, 60)
+				.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("Home"))).isDisplayed();
+
+		new WebDriverWait(driver, 60)
+				.until(ExpectedConditions.visibilityOfElementLocated(MobileBy.AccessibilityId("Home"))).click();
 	}
 
 }

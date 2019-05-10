@@ -5,7 +5,7 @@
 		<dataset name="set1">
 			<var name="NickName">tedt</var>
 			<var name="Mpin">121212</var>
-			<var name="EquipRelationshipSettingsTableExample">EquipRelationshipSettingsTableExample</var>
+			<var name="souldLogout">false</var>
 		</dataset>
 	</datasets>
 </testConfig>

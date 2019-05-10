@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70842" started-at="2019-05-10T07:27:55Z" finished-at="2019-05-10T07:29:06Z">
+  <suite name="Default suite" duration-ms="160677" started-at="2019-05-10T10:52:40Z" finished-at="2019-05-10T10:55:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70842" started-at="2019-05-10T07:27:55Z" finished-at="2019-05-10T07:29:06Z">
+    <test name="Default test" duration-ms="160677" started-at="2019-05-10T10:52:40Z" finished-at="2019-05-10T10:55:20Z">
       <class name="com.qk.axis.demoForAxisBank.AppTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:com.qk.axis.demoForAxisBank.AppTest@6366ebe0]" name="f" duration-ms="70804" started-at="2019-05-10T07:27:55Z" finished-at="2019-05-10T07:29:06Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:com.qk.axis.demoForAxisBank.AppTest@6631f5ca]" name="f" duration-ms="160613" started-at="2019-05-10T10:52:40Z" finished-at="2019-05-10T10:55:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->

@@ -1,12 +1,16 @@
 package com.qk.axis.fundtransfer2;
 
+import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qk.axis.FT.FundTransferFunctions;
 
 public class FundTransferTest extends FundTransferFunctions{
-	static boolean flag = false ;
+	
+	static boolean appOpen = false ;
+	static boolean loggedIn = false ;
+	String souldLogout = getData().getVariable("souldLogout");
 	String Nickname = getData().getVariable("NickName");
 	String Mpin = getData().getVariable("Mpin");
   @Test
@@ -14,17 +18,31 @@ public class FundTransferTest extends FundTransferFunctions{
 	  
 	  System.out.println(Nickname);
 		
-		if (!flag) {
+		try {
+		if(driver.findElement(By.xpath("(//XCUIElementTypeImage)[3]")).isDisplayed()) {
+			goToHome();
+		}}catch(Exception e) {
+		
+		if (!appOpen) {
 			openApp();
-		flag = true;
-		}else {
-			logIn();}
+			appOpen = true;
+		}if (!loggedIn) {
+			logIn();
 			EnterMpin(Mpin);
+			loggedIn=true;}
+		}
+			
 			clickOnFundTransferButton().
 			clickOnUpcomingTab().
 			clickOnInitialButtonOfPayee(Nickname).
 			clickOnFooterPayButton();
 			
+			if (souldLogout.contains("true")) {
+				appOpen = false;
+				loggedIn = false;
+			} else {
+				// goToHome();
+			}
  
 }
 }
