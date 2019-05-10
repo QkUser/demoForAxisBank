@@ -12,7 +12,7 @@ public class AppTest extends FundTransferFunctions {
 	@Test
 	public void f() throws Exception {
 		System.out.println(Nickname);
-
+	
 			openApp();
 			logIn();
 			EnterMpin(Mpin);
@@ -23,6 +23,6 @@ public class AppTest extends FundTransferFunctions {
 
 			Assert.assertTrue(driver.findElementByAccessibilityId("PAY NOW").isDisplayed(), "Pay now button not displayed");
 			
-	
+		
 	}
 }
