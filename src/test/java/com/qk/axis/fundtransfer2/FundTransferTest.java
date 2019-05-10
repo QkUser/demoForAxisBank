@@ -1,5 +1,6 @@
 package com.qk.axis.fundtransfer2;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qk.axis.FT.FundTransferFunctions;
@@ -19,6 +20,9 @@ public class FundTransferTest extends FundTransferFunctions{
 			clickOnUpcomingTab().
 			clickOnInitialButtonOfPayee(Nickname).
 			clickOnFooterPayButton();
+			
+			
+			
 
 		} catch (Exception e) {
 			e.printStackTrace();

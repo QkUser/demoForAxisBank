@@ -1,5 +1,6 @@
 package com.qk.axis.demoForAxisBank;
 
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.qk.axis.FT.FundTransferFunctions;
@@ -20,6 +21,8 @@ public class AppTest extends FundTransferFunctions {
 			clickOnInitialButtonOfPayee(Nickname).
 			clickOnFooterPayButton();
 
+			Assert.assertTrue(driver.findElementByAccessibilityId("PAY NOW").isDisplayed(), "Pay now button not displayed");
+			
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
